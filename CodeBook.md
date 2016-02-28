@@ -2,7 +2,7 @@
 ##Code Book
 
 
-#DATA DESCRIPTION
+##DATA DESCRIPTION
 The data was built from the recordings of 30 subjects performing activities of daily living (ADL) while carrying a waist-mounted smartphone with embedded inertial sensors.
 The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. The experiments have been video-recorded to label the data manually. The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data.
 
@@ -52,7 +52,7 @@ Activity: The type of activity measured
 
 
 
-TRANSFORMING THE DATA:
+##TRANSFORMING THE DATA:
 The accompanying R script includes line-by-line #comments to explain the purpose of the code, proceeding as instructed by the assignment description.
 
 0. GET THE DATA
