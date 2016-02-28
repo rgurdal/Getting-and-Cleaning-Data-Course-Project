@@ -1,7 +1,8 @@
-# Getting-and-Cleaning-Data-Course-Project
- Getting and Cleaning Data Course Project
 
-DESCRIPTION
+# Getting and Cleaning Data Course Project
+
+
+###DESCRIPTION
 
 This repo contains information, data, and code for the final project for the course "Getting and Cleaning Data" on Coursera. The purpose of this project is to demonstrate the ability to collect, work with, and clean a data set. The goal is to prepare tidy data that can be used for later analysis. The data represent data collected from the accelerometers from the Samsung Galaxy S smartphone. 
 
