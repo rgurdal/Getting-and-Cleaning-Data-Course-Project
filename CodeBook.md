@@ -1,8 +1,8 @@
 
-Code Book
+##Code Book
 
 
-DATA DESCRIPTION
+#DATA DESCRIPTION
 The data was built from the recordings of 30 subjects performing activities of daily living (ADL) while carrying a waist-mounted smartphone with embedded inertial sensors.
 The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. The experiments have been video-recorded to label the data manually. The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data.
 
@@ -39,7 +39,6 @@ mean(): Mean value
 std(): Standard deviation
  
 
-
 The final dataset, "averages_data.txt", includes the following variables:
 
 Subject: The ID of the test subject
@@ -56,22 +55,22 @@ Activity: The type of activity measured
 TRANSFORMING THE DATA:
 The accompanying R script includes line-by-line #comments to explain the purpose of the code, proceeding as instructed by the assignment description.
 
-# 0. GET THE DATA
-	# Download and unzip the files
-	# Read the data, assigning column names
+0. GET THE DATA
+	Download and unzip the files
+	Read the data, assigning column names
 
-# 1. MERGE THE TRAINING AND TEST SETS TO CREATE ONE DATA SET
-	# Create x, y, subject data sets
+1. MERGE THE TRAINING AND TEST SETS TO CREATE ONE DATA SET
+ Create x, y, subject data sets
 
-# 2. EXTRACT ONLY THE MEASUREMENTS ON THE MEAN AND STANDARD DEVIATION FOR EACH MEASUREMENT
-	# Find columns with mean() or std() in their names
-	# Subset the desired columns
-	# Bind all the data into a single data set
+2. EXTRACT ONLY THE MEASUREMENTS ON THE MEAN AND STANDARD DEVIATION FOR EACH MEASUREMENT
+	Find columns with mean() or std() in their names
+	Subset the desired columns
+	Bind all the data into a single data set
 
-# 3. USE DESCRIPTIVE ACTIVITY NAMES TO NAME THE ACTIVITIES IN THE DATA SET
-# 4. APPROPRIATELY LABEL THE DATA SET WITH DESCRIPTIVE VARIABLE NAMES
-	# (Done as data read into R, Step 0 above)
+3. USE DESCRIPTIVE ACTIVITY NAMES TO NAME THE ACTIVITIES IN THE DATA SET
+4. APPROPRIATELY LABEL THE DATA SET WITH DESCRIPTIVE VARIABLE NAMES
+	(Done as data read into R, Step 0 above)
 
-# 5. CREATE A SECOND, INDEPENDENT TIDY DATA SET WITH THE AVERAGE OF EACH 
+5. CREATE A SECOND, INDEPENDENT TIDY DATA SET WITH THE AVERAGE OF EACH 
 	 VARIABLE FOR EACH ACTIVITY AND EACH SUBJECT
 
